@@ -641,6 +641,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: black;
 }
 
 .modal_window_form_div_div_input:focus {
@@ -653,6 +654,13 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal_window_form_div_div_input:hover ~ .modal_window_section_svg_form{
+  fill: #4D5AE5;
+}
+
+.modal_window_form_div_div_input:focus ~ .modal_window_section_svg_form{
   fill: #4D5AE5;
 }
 
@@ -670,6 +678,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: black;
 }
 
 .modal_window_textarea:focus {
@@ -703,6 +712,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 
 .container_check_a {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .form_button {
