@@ -695,9 +695,12 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   fill: transparent;
 }
 
-.container_check_input:checked .privacy_policy {
+.container_check_input:checked ~ .container_check_label span {
   background-color: #404bbf;
   border: none;
+}
+
+.container_check_input:checked ~ .container_check_label span svg {
   fill: #F4F4FD;
 }
 
