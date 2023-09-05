@@ -676,10 +676,6 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   border-color: #4D5AE5;
 }
 
-.container_check {
-  margin-bottom: 24px;
-}
-
 .container_check_label {
   font-size: 12px;
   line-height: 1.17;
@@ -725,4 +721,8 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: auto;
+}
+
+.modal_window_privacy_policy {
+  margin-bottom: 24px;
 }
